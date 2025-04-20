@@ -76,10 +76,10 @@ export const InitDataPage: Component = () => {
 
   return (
     <Page
-      title="Init Data"
+      title="Show Item"
       disclaimer={(
         <>
-          This page displays application
+Details
           {' '}
           <Link href="https://docs.telegram-mini-apps.com/platform/init-data">
             init data
@@ -88,7 +88,7 @@ export const InitDataPage: Component = () => {
         </>
       )}
     >
-      <Show when={initDataRows()} fallback={<i>Application was launched with missing init data</i>}>
+      <Show when={initDataRows()} fallback={<i>No Item data</i>}>
         {(rows) => (
           <>
             <div class="init-data-page__section">

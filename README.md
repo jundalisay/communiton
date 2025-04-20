@@ -1,7 +1,6 @@
-# Telegram Mini Apps Solid.js Template
+# CommuniTON Pantry
 
-This template demonstrates how developers can implement a single-page application on the Telegram
-Mini Apps platform using the following technologies and libraries:
+This uses Solid JS to list a community pantry.  
 
 - [Solid](https://solidjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -11,11 +10,6 @@ Mini Apps platform using the following technologies and libraries:
 
 > This boilerplate was created using [pnpm](https://pnpm.io/). Therefore, it is required to use
 > it for this project as well.
-
-## Install Dependencies
-
-If you have just cloned this template, you should install the project dependencies using the
-command:
 
 ```Bash
 pnpm install

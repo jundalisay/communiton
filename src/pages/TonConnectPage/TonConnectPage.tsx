@@ -8,6 +8,8 @@ import { useTonWallet } from '@/tonconnect/useTonWallet.js';
 
 import './TonConnectPage.css';
 
+
+
 export const TonConnectPage: Component = () => {
   const wallet = useTonWallet();
 
@@ -17,7 +19,7 @@ export const TonConnectPage: Component = () => {
         when={wallet()}
         fallback={
           <p>
-            To display the data related to the TON Connect, it is required to connect your wallet.
+            To display the data related to the TON Connect, please connect your wallet.
           </p>
         }
       >
